@@ -27,8 +27,8 @@ const AUDIO = {
 
 const IMAGE = {
   menu: "Neon Hooded Cyber Bot Menu.png",
-  setting: "file_00000000b24c8207bd3a9b02406eccd3.png",
-  alive: "file_00000000feb0821191bb4c93b5655483.png"
+  setting: "https://u.pone.rs/xziyjrjj.jpg",
+  alive: "https://u.pone.rs/iunllucj.jpg"
 };
 
 const DEFAULT_SETTINGS = {
