@@ -1975,7 +1975,7 @@ async function handleCommand(
         jid,
         {
           text:
-            `💞 *DEW MD COMPATIBILITY GAME* 💞\n\n` +
+            `💞 *methu MD COMPATIBILITY GAME* 💞\n\n` +
             `👤 @${digits(first)}\n❤️ + ❤️\n👤 @${digits(second)}\n\n` +
             `💘 Fun score: ${percentage}%\n${result}\n\n` +
             `⚠️ Just for fun — not a real compatibility test!`,
@@ -2073,7 +2073,7 @@ async function handleCommand(
 
       return sendText(
         jid,
-        `🪙 *DEW MD COIN FLIP*\n\nResult: ${result}`,
+        `🪙 *methu MD COIN FLIP*\n\nResult: ${result}`,
         message
       );
     }
@@ -2087,7 +2087,7 @@ async function handleCommand(
       if (options.length < 2) {
         return sendText(
           jid,
-          "🎲 *DEW MD CHOICE MAKER*\n\nUse:\n.choose Pizza | Burger | Kottu",
+          "🎲 *methu MD CHOICE MAKER*\n\nUse:\n.choose Pizza | Burger | Kottu",
           message
         );
       }
@@ -2105,7 +2105,7 @@ async function handleCommand(
 
       return sendText(
         jid,
-        `🎲 *DEW MD HAS CHOSEN!*\n\n${options.map((option, index) => `${index + 1}. ${option}`).join("\n")}\n\n💚 My choice: *${selected}*`,
+        `🎲 *methu MD HAS CHOSEN!*\n\n${options.map((option, index) => `${index + 1}. ${option}`).join("\n")}\n\n💚 My choice: *${selected}*`,
         message
       );
     }
@@ -2140,7 +2140,7 @@ async function handleCommand(
 
       return sendText(
         jid,
-        `✅ DEW MD mode set to ${mode.toUpperCase()}.`,
+        `✅ methu MD mode set to ${mode.toUpperCase()}.`,
         message
       );
     }
