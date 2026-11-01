@@ -10,14 +10,14 @@ import os from "os";
 import sharp from "sharp";
 
 // ========================================
-// DEW MD CONFIG
+// methu MD CONFIG
 // ========================================
 
-const BOT_NAME = "DEW MD";
-const OWNER_NAME = "ARUSHA";
-const OWNER_NUMBER = "94750514789";
-const REPO_URL = "https://github.com/mddew268-lang/Dew-md";
-const DATA_FILE = "./dew-md-data.json";
+const BOT_NAME = "methu MD";
+const OWNER_NAME = "nadun";
+const OWNER_NUMBER = "942290168";
+const REPO_URL = "https://github.com/Methumdbot/Methu_md";
+const DATA_FILE = "./methu-md-data.json";
 
 const AUDIO = {
   mk: "AUD-20261002-WA0054.mp3",
@@ -676,7 +676,7 @@ async function requireGroupAdmin(jid, sender) {
 
   if (!isAdmin(botParticipant)) {
     throw new Error(
-      "Please make DEW MD a group admin first."
+      "Please make methu MD a group admin first."
     );
   }
 
@@ -758,7 +758,7 @@ async function handleCommand(
   ) {
     return sendText(
       jid,
-      "🔒 DEW MD is in private/owner mode.",
+      "🔒 methu MD is in private/owner mode.",
       message
     );
   }
@@ -877,7 +877,7 @@ async function handleCommand(
     case "ping":
       return sendText(
         jid,
-        "🏓 Pong!\nDEW MD is online!",
+        "🏓 Pong!\nmethu MD is online!",
         message
       );
 
@@ -906,7 +906,7 @@ async function handleCommand(
     case "repo":
       return sendText(
         jid,
-        `📦 DEW MD Repository:\n${REPO_URL}`,
+        `📦 methu MD Repository:\n${REPO_URL}`,
         message
       );
 
@@ -936,7 +936,7 @@ async function handleCommand(
 
         return sendText(
           jid,
-          `🧮 *DEW MD CALCULATOR*\n\n${argText} = *${answer}*`,
+          `🧮 *methu MD CALCULATOR*\n\n${argText} = *${answer}*`,
           message
         );
       } catch (error) {
