@@ -15,7 +15,7 @@ import sharp from "sharp";
 
 const BOT_NAME = "methu MD";
 const OWNER_NAME = "nadun";
-const OWNER_NUMBER = "942290168";
+const OWNER_NUMBER = "94742290168";
 const REPO_URL = "https://github.com/Methumdbot/Methu_md";
 const DATA_FILE = "./methu-md-data.json";
 
