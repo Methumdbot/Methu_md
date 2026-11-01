@@ -1,2 +1,2 @@
 # methu-md
-Dew md watsapp multidevice botn
+methu md watsapp multidevice botn
